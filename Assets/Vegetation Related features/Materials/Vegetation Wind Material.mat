@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vegetation Wind Material
+  m_Shader: {fileID: -6465566751694194690, guid: c598078388ba14e7c8885f7b8eb08619, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_95be304505e1468d8a1cd6ced8852300:
+        m_Texture: {fileID: 2800000, guid: 4e505153d4e7c4e67b0458f78bd97b17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0a1814af6f5540d9a1bc718cf102a9c3: 1
+    - Vector1_30922006abd5464489a1e1a7574463f5: 0.55
+    - Vector1_495c6b17125147738d202b721b4172b8: 10
+    - Vector1_86246c7db2484a429be5110bd88ab146: 1.18
+    - Vector1_b53a439737d344a8bb4fa83e234b833c: 0
+    - Vector1_c44eddffc3834f6e85ed997771cafe6a: 0.6
+    - Vector1_c5b6a79397c04eac9555d2d99176f75b: 1
+    m_Colors:
+    - Color_298811632f8b4d81a0e140497bb30882: {r: 0, g: 0, b: 0, a: 0}
+    - Color_634e1e468b0a4ae6bb40ac2a7fe98f0c: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0}
+  m_BuildTextureStacks: []

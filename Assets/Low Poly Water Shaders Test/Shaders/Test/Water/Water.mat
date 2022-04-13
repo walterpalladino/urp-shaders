@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 00e9ad2d863d0d442aca03d31fbc1559,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CameraDepthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_A03E2FE4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a0682394cbb46844fb85eef7a7232aac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_C78BB58B_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9e317a773739f3e42bdba4b6a8b8878a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_393C1011: 6.12
+    - Vector1_4DF019E7: 10
+    - Vector1_57C935A: 0.1
+    - Vector1_70E47BCA: 50000
+    - Vector1_7179A232: 0
+    - Vector1_724A07BA: 1000
+    - Vector1_88EB4C74: 1
+    - Vector1_8B6913FD: 1.5
+    - Vector1_952E67CB: 0
+    - Vector1_99A009F4: 1
+    - Vector1_A1CC450B: 8.57
+    - Vector1_ACF8C575: 1
+    - Vector1_B2A2756D: 0.005
+    - Vector1_B7CE298A: 0.000033
+    - Vector1_BD1977AA: 2500
+    - Vector1_E1965085: 0.02
+    - Vector1_EC26FDA6: 0.03
+    - Vector1_EDF744E3: 50000
+    - Vector1_F58E2F32: 2.5
+    - Vector1_FB6ABB89: 0.033
+    - Vector1_FCA54676: 1
+    m_Colors:
+    - Color_175D2B09: {r: 0.073291205, g: 0.14778934, b: 0.254717, a: 1}
+    - Color_1E67838A: {r: 0.20790316, g: 0.4196479, b: 0.6037736, a: 0}
+    - Color_275A1945: {r: 1024, g: 1024, b: 1024, a: 1}
+    - Color_3F827E2D: {r: 0.2742079, g: 0.5612811, b: 0.735849, a: 1}
+    - Color_43A9F3D4: {r: 1, g: 1, b: 1, a: 0}
+    - Color_68C509D4: {r: 0, g: 0.04313726, b: 0.1686275, a: 0.9215686}
+    - Color_E4D3495B: {r: 0.4716981, g: 0.46459836, b: 0.21137415, a: 1}

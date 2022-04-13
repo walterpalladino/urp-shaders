@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wind Material based on Normals
+  m_Shader: {fileID: -6465566751694194690, guid: a52409dd8248d08468e40c4299ecb6c0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4f1474dfdd044c2f9478d2b5e481cbd0:
+        m_Texture: {fileID: 2800000, guid: 56c0ad352a343ab4686a186c599b5d8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_90c74bf02c4943e0ade18e889dc4a2ea:
+        m_Texture: {fileID: 2800000, guid: 56c0ad352a343ab4686a186c599b5d8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_368e2ec881694526812bd3d3ee705057: 0.13
+    - Vector1_8d5b34b25e7a423fa445098b01e9e4f6: 0.6
+    - Vector1_e42e2b88aa424e14b3c1dbbb54a812c8: 0.83
+    m_Colors:
+    - Vector3_9878c8b80585480caebf1048d6461533: {r: 0, g: 0.25, b: 0.5, a: 0}
+  m_BuildTextureStacks: []
