@@ -1,4 +1,4 @@
-Shader "Custom/DepthMask" {
+Shader "Low Poly/Water/DepthMask" {
 
     SubShader{
 
