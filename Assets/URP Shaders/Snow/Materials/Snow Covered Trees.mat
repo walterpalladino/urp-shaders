@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snow Covered Trees
+  m_Shader: {fileID: -6465566751694194690, guid: c8e93a53137c54fa0b5758f22ec95415, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_99af287ac6a24bbfb1c9c29d9fc9d670:
+        m_Texture: {fileID: 2800000, guid: ed297eb21cb5e5e4188600ba2d272554, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_404ef4998cd9416697f17fa3d10c3665: 100
+    - Vector1_46f1f01a7a0e459c9bc98692113010ef: 0.25
+    - Vector1_7618c7e877bc4665a7ac706abe3859e6: -0.3
+    - Vector1_f3cc09855cf8472ca0437c44b6b3c2b7: 3.9
+    m_Colors:
+    - Vector3_a1d6f9bb5a254db883f271c239200e43: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
