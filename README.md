@@ -8,9 +8,9 @@ Low Poly Tree Pack from Broken Vector (https://assetstore.unity.com/packages/3d/
 and other FREE assets from Quaternius site (https://quaternius.com/)
 
 ## URP Shaders for
--Low Poly Water
-=Normal textured Water
--Avoid water inside boats
--Wind on Vegetation
-=Wind on Clothes like Flags and Sails
--Snow cover on surfaces
+- Low Poly Water
+= Normal textured Water
+- Avoid water inside boats
+- Wind on Vegetation
+= Wind on Clothes like Flags and Sails
+- Snow cover on surfaces
