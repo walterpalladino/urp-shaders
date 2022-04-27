@@ -12,5 +12,5 @@ and other FREE assets from Quaternius site (https://quaternius.com/)
 - Normal textured Water
 - Avoid water inside boats
 - Wind on Vegetation
-= Wind on Clothes like Flags and Sails
+- Wind on Clothes like Flags and Sails
 - Snow cover on surfaces
