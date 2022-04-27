@@ -9,7 +9,7 @@ and other FREE assets from Quaternius site (https://quaternius.com/)
 
 ## URP Shaders for
 - Low Poly Water
-= Normal textured Water
+- Normal textured Water
 - Avoid water inside boats
 - Wind on Vegetation
 = Wind on Clothes like Flags and Sails
