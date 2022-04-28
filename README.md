@@ -7,6 +7,8 @@ Low Poly Tree Pack from Broken Vector (https://assetstore.unity.com/packages/3d/
 
 and other FREE assets from Quaternius site (https://quaternius.com/)
 
+and textures from https://3dtextures.me/
+
 ## URP Shaders for
 - Low Poly Water
 - Normal textured Water
@@ -14,3 +16,5 @@ and other FREE assets from Quaternius site (https://quaternius.com/)
 - Wind on Vegetation
 - Wind on Clothes like Flags and Sails
 - Snow cover on surfaces
+- TV noise
+- Triplanar texture for terrain
