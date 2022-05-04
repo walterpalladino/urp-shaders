@@ -7,57 +7,37 @@ using UnityEngine.Rendering;
 public class PlaneReflectionManager : MonoBehaviour
 {
 
-    [SerializeField]
     Camera reflectionCamera;
     Camera mainCamera;
 
     [SerializeField]
     GameObject reflectionPlane;
 
-
-    //[SerializeField]
     RenderTexture renderTexture;
 
+    [Range(0.0f, 1.0f)]
+    [SerializeField]
+    float reflectionStrength = 0.5f;
+
+    [Range(1, 16)]
+    [SerializeField]
+    int reflectionTextureGrain = 1;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //GameObject reflectionCameraGO = new GameObject("ReflectionCamera");
-        //reflectionCamera = reflectionCameraGO.AddComponent<Camera>();
-        //reflectionCamera.enabled = false;
+        GameObject reflectionCameraGO = new GameObject("ReflectionCamera");
+        reflectionCamera = reflectionCameraGO.AddComponent<Camera>();
 
         mainCamera = Camera.main;
-        /*
-        //renderTexture = new RenderTexture(Screen.width, Screen.height, 24); //  Includes the stencil buffer
-        if (reflectionCamera.targetTexture != null)
-        {
-            reflectionCamera.targetTexture.Release();
-        }
 
-        reflectionCamera.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);*/
-        
-        //  Set the reflection texture properties
-        /*renderTexture.Release();
-
-        renderTexture.width = Screen.width / 4;
-        renderTexture.height = Screen.height / 4;
-        renderTexture.depth = 24;
-        renderTexture.antiAliasing = 2;
-        renderTexture.Create();
-        */
-        renderTexture = new RenderTexture(Screen.width / 4, Screen.height / 4, 24);
+        renderTexture = new RenderTexture(Screen.width / reflectionTextureGrain, Screen.height / reflectionTextureGrain, 24);
         renderTexture.antiAliasing = 2;
 
 
         reflectionCamera.targetTexture = renderTexture;
-//        reflectionPlane.GetComponentInChildren<Renderer>().material.SetTexture("_BaseTexture", renderTexture, RenderTextureSubElement.Default);
         reflectionPlane.GetComponentInChildren<Renderer>().material.SetTexture("_ReflectionTexture", renderTexture, RenderTextureSubElement.Default);
-        //        reflectionPlane.GetComponent<Renderer>().material.SetTexture(Shader.PropertyToID("_ReflectionTexture"), renderTexture);
-        /*Renderer reflectionPlaneRenderer = reflectionPlane.GetComponent<Renderer>().material.SetTexture(Shader.PropertyToID("_ReflectionTexture"), renderTexture);
-        Material material = reflectionPlaneRenderer.material;
-        material.SetTexture(Shader.PropertyToID("_ReflectionTexture"), renderTexture);
-        reflectionPlaneRenderer.materials[0] = material;*/
 
     }
 
@@ -67,17 +47,8 @@ public class PlaneReflectionManager : MonoBehaviour
         
     }
 
-    /*
-    private void OnPostRender()
-    {
-        Debug.Log("OnPostRender");
-        RenderReflection();
-    }
-    */
-
     void SetupReflectionCamera()
     {
-        //reflectionCamera.CopyFrom(mainCamera);
 
         Vector3 cameraDirectionWorldSpace = mainCamera.transform.forward;
         Vector3 cameraUpWorldSpace = mainCamera.transform.up;
@@ -102,15 +73,6 @@ public class PlaneReflectionManager : MonoBehaviour
         reflectionCamera.transform.position = cameraPositionWorldSpace;
         reflectionCamera.transform.LookAt(cameraPositionWorldSpace + cameraDirectionWorldSpace, cameraUpWorldSpace);
 
-  //      //  Set the reflection texture dimensions
-
-        /*
-        //  Set render target for the reflection camera
-        reflectionCamera.targetTexture = renderTexture;
-
-        //  Render the reflection camera
-        //reflectionCamera.Render();
-        */
     }
 
 
@@ -118,26 +80,23 @@ public class PlaneReflectionManager : MonoBehaviour
     // Unity calls this method automatically when it enables this component
     private void OnEnable()
     {
-        // Add WriteLogMessage as a delegate of the RenderPipelineManager.beginCameraRendering event
         RenderPipelineManager.endCameraRendering += EndCamerarendering;
-
         RenderPipelineManager.beginCameraRendering += BeginCameraRendering;
     }
 
     // Unity calls this method automatically when it disables this component
     private void OnDisable()
     {
-        // Remove WriteLogMessage as a delegate of the  RenderPipelineManager.beginCameraRendering event
         RenderPipelineManager.endCameraRendering -= EndCamerarendering;
         RenderPipelineManager.beginCameraRendering -= BeginCameraRendering;
     }
 
     private void BeginCameraRendering(ScriptableRenderContext context, Camera camera)
     {
-        Debug.Log($"Beginning rendering the camera: {camera.name}");
         if (camera.name == "ReflectionCamera")
         {
             SetupReflectionCamera();
+            reflectionPlane.GetComponentInChildren<Renderer>().material.SetFloat("_ReflectionStrength", reflectionStrength);
         }
     }
 
@@ -146,10 +105,8 @@ public class PlaneReflectionManager : MonoBehaviour
     // When this method is a delegate of RenderPipeline.beginCameraRendering event, Unity calls this method every time it raises the beginCameraRendering event
     void EndCamerarendering(ScriptableRenderContext context, Camera camera)
     {
-        Debug.Log($"Ending rendering the camera: {camera.name}");
         if (camera.tag == "MainCamera")
         {
-            //RenderReflection();
         }
     }
 }
