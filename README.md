@@ -21,3 +21,5 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
 - Overlayed Texture (Like a grid over a textured mapped used world coordinates)
 - Transparent Objects
 - Vegetation Wind Shader (Using billboard like techniques and double side polygons)
+- Low Poly Flat Shader
+- Low Poly Shader with Halftones (dithering)
