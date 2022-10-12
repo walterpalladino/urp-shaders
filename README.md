@@ -7,6 +7,7 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
 - FREE assets from Quaternius site (https://quaternius.com/)
 - textures from https://3dtextures.me/
 - Free folliage textures from the Unity Asset Store: https://assetstore.unity.com/packages/3d/vegetation/yughues-free-stylized-foliages-13392
+- Unity Cat from: https://assetstore.unity.com/packages/essentials/tutorial-projects/endless-runner-sample-game-87901
 
 ## URP Shaders for
 - Low Poly Water
@@ -23,3 +24,4 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
 - Vegetation Wind Shader (Using billboard like techniques and double side polygons)
 - Low Poly Flat Shader
 - Low Poly Shader with Halftones (dithering)
+- Toon shader implementing diffuse + specular + rim
