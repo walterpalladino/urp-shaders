@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d1c0c309b96546b79dcf08e4d325270
+guid: b3bdd9200a4a84549a9135f342ffa1c0
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
@@ -7,23 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 43d43d054fe454632ad050b5935eb92c, type: 2}
+      name: Fangs
+    second: {fileID: 2100000, guid: 2dd8e1775fa15487dbfb2042d057035f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DarkGreen
-    second: {fileID: 2100000, guid: 95c2bc086dc2840ddaf0ae4c54813ce9, type: 2}
+      name: Fur
+    second: {fileID: 2100000, guid: 4cd5e4eea34964a47957e72090fc86a4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Green
-    second: {fileID: 2100000, guid: e334afbf15931484886ab98f0c829e65, type: 2}
+      name: Fur Dark
+    second: {fileID: 2100000, guid: 9a90bef8e560f4e29ab64e0370c4eaf5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: White
-    second: {fileID: 2100000, guid: 7cd8f362fa48f462b83ccdeabffacd25, type: 2}
+      name: Tongue
+    second: {fileID: 2100000, guid: b6fb46ea1b97b4e2bace8f5625288e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Werewolf Eyes
+    second: {fileID: 2100000, guid: 19ddf2c97f183488e96278b36694dcf0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -86,7 +91,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
@@ -105,7 +110,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 100
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -116,7 +121,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  remapMaterialsIfMaterialImportModeIsNone: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
