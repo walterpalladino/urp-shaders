@@ -95,9 +95,12 @@ Material:
     m_Floats:
     - Boolean_e7b6cf50cf7c4726a61a1007a44d611e: 0
     - Vector1_3863ebd8e3754f36a3445fb230ab8844: 0.78
+    - Vector1_615d7ef40a034bdbbe2925ca53596e98: 5.1
     - Vector1_73c96be67c0c487388f52df0977b9b27: 0.99
     - Vector1_7553073200ce4530a9adf1bb99289e90: 0
+    - Vector1_9450923840714e529e2a0901df63898c: 1
     - Vector1_b990908989594f7dbbe96d5d8d6aab15: 0.35
+    - Vector1_d1ff90cae18d41379771c318f60bbe30: 0.37
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -130,6 +133,7 @@ Material:
     - Color_25eabbfba3614ef79db9135ca267e4a0: {r: 0.4245283, g: 0.038047336, b: 0.038047336, a: 0}
     - Color_331e4b70645c40e9abe8455b41564e68: {r: 0.8679245, g: 0.26596272, b: 0.13510147, a: 0}
     - Color_5d6fe97854a24a3d9f40b0129aeb5e8a: {r: 1, g: 0.5518868, b: 0.5518868, a: 0}
+    - Color_6afb90a887ca43ce9f44e304d45dca76: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.71331614, g: 0.13190204, b: 0.16825679, a: 1}
     - _Color: {r: 0.6792453, g: 0.041651852, b: 0.05274037, a: 1}
     - _ColorShadow: {r: 0.38679248, g: 0.045612313, b: 0.045612313, a: 0}
