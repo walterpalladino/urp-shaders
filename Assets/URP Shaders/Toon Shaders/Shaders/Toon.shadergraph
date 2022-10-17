@@ -3793,7 +3793,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "54f97284e88941b48e150a73f4e25b28",
     "m_Id": 0,
-    "m_DisplayName": "Dither Size",
+    "m_DisplayName": "Opacity Dither Size",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4064,7 +4064,7 @@
     "m_Guid": {
         "m_GuidSerialized": "d933f04a-a865-4039-864c-4aedeabdd880"
     },
-    "m_Name": "Dither Size",
+    "m_Name": "Opacity Dither Size",
     "m_DefaultReferenceName": "Vector1_615d7ef40a034bdbbe2925ca53596e98",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -4075,7 +4075,7 @@
     "m_Value": 5.0,
     "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 0.10999999940395355,
+        "x": 1.0,
         "y": 10.0
     }
 }
