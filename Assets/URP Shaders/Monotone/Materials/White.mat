@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orange
+  m_Name: White
   m_Shader: {fileID: -6465566751694194690, guid: 172e038f85e4845b3bb566bd9cf85c18, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -38,13 +38,13 @@ Material:
     m_Floats:
     - Boolean_b2ba1fa7da6342399b91ec2391fbb1fb: 1
     - Boolean_d9cd09875506436dbd832966c7f84fd1: 1
-    - Vector1_1410f9c005794353b04b9fb278324b67: 2.5
-    - Vector1_20d1f7cbfdbe45c78b5a0231ecd22d4e: 0
-    - Vector1_2520db8b1734412c9bf8bef476ce0acf: 7
+    - Vector1_1410f9c005794353b04b9fb278324b67: 1
+    - Vector1_20d1f7cbfdbe45c78b5a0231ecd22d4e: 0.49
+    - Vector1_2520db8b1734412c9bf8bef476ce0acf: 7.4
     - Vector1_851c91a3097c4ece99c22ccdc0f827c8: 256
-    - Vector1_957d5396444141b7ae713c7cc71010be: 0.27
-    - Vector1_e6fa33c593cc4deda7279b4f885e10f8: -0.17
+    - Vector1_957d5396444141b7ae713c7cc71010be: 0
+    - Vector1_e6fa33c593cc4deda7279b4f885e10f8: 0.37
     m_Colors:
-    - _Color: {r: 0.8679245, g: 0.6182265, b: 0.15966538, a: 0}
-    - _Tint: {r: 0.5647059, g: 0.5098625, b: 0.2901961, a: 0}
+    - _Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
