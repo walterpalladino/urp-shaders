@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clouds Textured
+  m_Shader: {fileID: -6465566751694194690, guid: 873af8b4eeb9d45d1bbc0d527031efb9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ede0279fb1c54fb5b093c24fcd194c1a:
+        m_Texture: {fileID: 2800000, guid: 5369de00cf75d4628b9c43085679d085, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9d67f2e63b1bb409e96a3ef4b08f05ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_4c5364ff40134b65a43c6a46b56ab100: 1
+    - Vector1_03ea6e496ff646bda6b7217aaf06efe8: 1
+    - Vector1_36a4064703a047c8a2745affffbf5904: 1
+    - Vector1_3f12ae74ab3d4118b120d44c17af3454: 0
+    - Vector1_3f55852b69eb4593b0528e1ead148ca7: 19.72
+    - Vector1_4785f000fc774a669720b9782b0fce8b: 64.4
+    - Vector1_811d8f26d57d4b1699f8c20b71a32d33: 0.64
+    - Vector1_93eec5039ae040f8b5309cc31552c1c8: 2.14
+    - Vector1_9d9e0d148f9449ac94cad8b46deaa666: 3.09
+    - Vector1_a5f62c49d0d145ccb23015ee8c9d0495: 0.27
+    - Vector1_ab45be9d62654331873a3d099bcf4cc1: 4.8
+    - Vector1_d80c676224e24367bd9cfd795cafc503: 0.002
+    - _DistanceCutout: 0.86
+    m_Colors:
+    - Color_e20a4225443f4e4bbab549fbf0a697c2: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
