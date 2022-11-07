@@ -27,7 +27,7 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
 - Planar Reflections
 - Overlayed Texture (Like a grid over a textured mapped used world coordinates)
 - Transparent Objects
-- low Poly Models special shaders
+- Low Poly Models special shaders
   - Low Poly Flat Shader
   - Low Poly Shader with Halftones (dithering)
 - Toon shader implementing diffuse + specular + rim
