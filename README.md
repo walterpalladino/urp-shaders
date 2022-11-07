@@ -34,4 +34,4 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
 - Monotone Shader using dithering
 - Sky Shaders
   - Skydome sahder to be applied to dome meshes using textured noise and internal noise functions (The textured versions was created to avoid problems with Unity noise implementation on some GPUs)
-  - Custom SkyBox including gradient color for sky, clouds, sun, moon and stars
+  - Custom SkyBox including gradient color for sky, clouds, sun, moon and stars and day / night cycle based on main light direction
