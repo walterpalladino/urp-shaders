@@ -1,0 +1,114 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Petals_3",
+            "rotation" : [
+                0.8183297514915466,
+                0.32218092679977417,
+                -0.40795809030532837,
+                0.24516548216342926
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Flowers",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.014",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7,
+            "max" : [
+                0.2355126589536667,
+                0.10935792326927185,
+                0.027157636359333992
+            ],
+            "min" : [
+                -0.23542732000350952,
+                -0.2370368242263794,
+                -0.20934006571769714
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 84,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84,
+            "byteOffset" : 84
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56,
+            "byteOffset" : 168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 224
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 260,
+            "uri" : "data:application/octet-stream;base64,mSw7u6MKCTs18kE7jX3cvci5cr6xed48iL0CPnedZb6NqM08OypxPo1JUr3H+769fx/cPQz33z0+XVa+kuwCvnm+xT0IQ1S+3BNxvuj2nL2mWba9uezDPK3pEr80j1G/SfJiPsp+Rr7UpnS/wmVdvh4NX74opXO/QCrVvrQSCr/HYTu/vhs3vlpuVr+uIgS/0bGEPiVjUL8JEwW//RXrPuPq+74FWj2/mDNIPqw4Sz6B3Jg+pP7APl1cvT2k/sA+4nMtvKw4Sz5bXL09gKCjPIHcmD6AoKM8Np/NPqQ4Sz4AAAIAAQAAAAMAAgAAAAQAAwAAAAUABAAAAAYABQAAAAEABgA="
+        }
+    ]
+}

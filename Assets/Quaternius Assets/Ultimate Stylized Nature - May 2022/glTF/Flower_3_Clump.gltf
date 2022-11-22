@@ -1,0 +1,158 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5121,
+            "count" : 408,
+            "max" : [
+                123
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 124,
+            "max" : [
+                0.3156799376010895,
+                0.6022393703460693,
+                0.24488729238510132
+            ],
+            "min" : [
+                -0.252328097820282,
+                0.0011882712133228779,
+                -0.25304919481277466
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 124,
+            "max" : [
+                0.9966429471969604,
+                0.9975280165672302,
+                0.9853510856628418
+            ],
+            "min" : [
+                -0.9980773329734802,
+                -0.6622516512870789,
+                -0.9961546659469604
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 124,
+            "max" : [
+                1.0,
+                0.9985088109970093,
+                0.8846955895423889,
+                1.0
+            ],
+            "min" : [
+                -0.9160459041595459,
+                -0.3910735845565796,
+                -0.9711966514587402,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 124,
+            "max" : [
+                0.7902023196220398,
+                0.8680251687765121
+            ],
+            "min" : [
+                0.4289761483669281,
+                -0.014830708503723145
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 408,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1488,
+            "byteOffset" : 408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1488,
+            "byteOffset" : 1896,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1984,
+            "byteOffset" : 3384,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 992,
+            "byteOffset" : 5368,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 6360,
+            "uri" : "Flower_3_Clump.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.068",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Flower_3_Clump",
+            "scale" : [
+                0.75,
+                0.75,
+                0.75
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

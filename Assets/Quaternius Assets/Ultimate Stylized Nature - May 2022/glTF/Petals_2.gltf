@@ -1,0 +1,114 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Petals_2",
+            "rotation" : [
+                0.7800160050392151,
+                0.2670544981956482,
+                -0.4459957480430603,
+                0.34834569692611694
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Flowers",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.013",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 14,
+            "max" : [
+                0.3304092288017273,
+                0.17173495888710022,
+                0.06543407589197159
+            ],
+            "min" : [
+                -0.3303242027759552,
+                -0.3299112021923065,
+                -0.29717519879341125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 14,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 14,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 112,
+            "byteOffset" : 336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 448
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 520,
+            "uri" : "data:application/octet-stream;base64,Mt+Du4bvKTtYHnA7Y7EavkB3oL5NAoY9hmk3PhvAl76zuHo9ZiupPuD9Xb0719e9UWYaPkrbLz5OAYm+nrQ3vgZtHj7H14a+QSCpvtPvs71lW8a9WcIqu7ya+rtqOdi7c2ymPR/qqL5CE6c8FbKRPi0PHL4rWMG9JoBQPg1BpD3zzYG+VcWmvY/gCj5ZJ5i+TciRvtuRK70bwDq+K0RQvnafjL6RPMG8CJupPBvrEr/xk1G/I/c6Pnwfir5lCXK//DA2vmd4lL6sunC/zOyuvqPEDb9BZEK/680WvsSjTL8YHxW/h8paPs0mSL/u8RW/k1vCPuonBL+qiUS/Dd+XPElED7+hGlS/xxXrvXB+5r2kq3y/wq/kvpdAzb5TxEy/ezOhvi+7R79sXwq/vREZPsXBXr+lbPC+PM31PiGvFL9wTCi/IOSxPu3iT76hW2q/lkNUPoKdFT+A5J4+qU5DP1p81T2pTkM/KmCcOoKdFT9YfNU9ttjPPoDknj622M8+NafTPoCdFT+WQ1Q+gp0VP4Dknj6pTkM/WnzVPalOQz8qYJw6gp0VP1h81T222M8+gOSePrbYzz41p9M+gJ0VPwAAAgABAAAAAwACAAAABAADAAAABQAEAAAABgAFAAAAAQAGAAcACQAIAAcACgAJAAcACwAKAAcADAALAAcADQAMAAcACAANAA=="
+        }
+    ]
+}

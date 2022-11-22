@@ -1,0 +1,158 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5121,
+            "count" : 102,
+            "max" : [
+                30
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 31,
+            "max" : [
+                0.26469749212265015,
+                0.47155654430389404,
+                0.21766656637191772
+            ],
+            "min" : [
+                -0.054014623165130615,
+                -0.010238820686936378,
+                -0.11212734133005142
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 31,
+            "max" : [
+                0.8991668224334717,
+                0.9950254559516907,
+                0.8348948359489441
+            ],
+            "min" : [
+                -0.8384655117988586,
+                -0.6421399712562561,
+                -0.8025452494621277
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 31,
+            "max" : [
+                1.0,
+                0.9830790162086487,
+                0.8067386150360107,
+                1.0
+            ],
+            "min" : [
+                -0.3327014744281769,
+                -0.29165345430374146,
+                -0.972872257232666,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 31,
+            "max" : [
+                0.8025822043418884,
+                0.8680251687765121
+            ],
+            "min" : [
+                0.4413560628890991,
+                0.3848634362220764
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 102,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 372,
+            "byteOffset" : 104,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 372,
+            "byteOffset" : 476,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 496,
+            "byteOffset" : 848,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 248,
+            "byteOffset" : 1344,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1592,
+            "uri" : "Flower_2.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.045",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Flower_2",
+            "scale" : [
+                0.75,
+                0.75,
+                0.75
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
