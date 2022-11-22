@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CatOrange Toon
-  m_Shader: {fileID: -6465566751694194690, guid: c10f6e8e8b102489a8899c3669755a44, type: 3}
+  m_Name: Double Sided Palm Leaves
+  m_Shader: {fileID: -6465566751694194690, guid: 903fc55ee423f4e93a70ecc2a8425ce4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,12 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_05941ba3af264a7c8917b1da6d5c2b73:
-        m_Texture: {fileID: 2800000, guid: 316c410f718c44c679dbeb452ad0738b, type: 3}
+    - Texture2D_747a7a05f5dc411c9661ad203489a568:
+        m_Texture: {fileID: 2800000, guid: 39daf7a90231a4a0cbcc77f3388532ae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 316c410f718c44c679dbeb452ad0738b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 316c410f718c44c679dbeb452ad0738b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -80,14 +80,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_e7b6cf50cf7c4726a61a1007a44d611e: 0
-    - Vector1_1f6aa9c95fdd4ba296a6cbbbd955cd16: 0
-    - Vector1_3863ebd8e3754f36a3445fb230ab8844: 0.58
-    - Vector1_615d7ef40a034bdbbe2925ca53596e98: 5
-    - Vector1_73c96be67c0c487388f52df0977b9b27: 0.43
-    - Vector1_9450923840714e529e2a0901df63898c: 1
-    - Vector1_b990908989594f7dbbe96d5d8d6aab15: 0.15
-    - Vector1_d1ff90cae18d41379771c318f60bbe30: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -115,18 +107,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_25eabbfba3614ef79db9135ca267e4a0: {r: 0.53773576, g: 0.53773576, b: 0.53773576, a: 0}
-    - Color_331e4b70645c40e9abe8455b41564e68: {r: 1, g: 1, b: 1, a: 0}
-    - Color_5d6fe97854a24a3d9f40b0129aeb5e8a: {r: 1, g: 1, b: 1, a: 0}
-    - Color_6afb90a887ca43ce9f44e304d45dca76: {r: 0.36792448, g: 0.36271796, b: 0.36271796, a: 0}
-    - Color_ca8c84a5c1fb4a9788f9eb2dc0c11a01: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorShadow: {r: 0.53773576, g: 0.53773576, b: 0.53773576, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2227613853862713571
+--- !u!114 &551199721278171993
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

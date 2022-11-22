@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d3ec7f88229704fd187713fa3b3b4f21, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -90,12 +90,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_e7b6cf50cf7c4726a61a1007a44d611e: 0
-    - Vector1_3863ebd8e3754f36a3445fb230ab8844: 0.753
+    - Vector1_3863ebd8e3754f36a3445fb230ab8844: 0.635
     - Vector1_615d7ef40a034bdbbe2925ca53596e98: 5
-    - Vector1_73c96be67c0c487388f52df0977b9b27: 0.2
+    - Vector1_73c96be67c0c487388f52df0977b9b27: 0.082
     - Vector1_9450923840714e529e2a0901df63898c: 1
-    - Vector1_b990908989594f7dbbe96d5d8d6aab15: 0.25
-    - Vector1_d1ff90cae18d41379771c318f60bbe30: 0.37
+    - Vector1_b990908989594f7dbbe96d5d8d6aab15: 0.22
+    - Vector1_d1ff90cae18d41379771c318f60bbe30: 0.184
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -123,11 +123,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_5d6fe97854a24a3d9f40b0129aeb5e8a: {r: 0.52415013, g: 0.5566038, b: 0.44370773, a: 0}
+    - Color_5d6fe97854a24a3d9f40b0129aeb5e8a: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0}
     - Color_6afb90a887ca43ce9f44e304d45dca76: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
-    - _ColorShadow: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0}
+    - _Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    - _ColorShadow: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
