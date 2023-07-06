@@ -24,6 +24,7 @@ I'm using on this examples assets from the FREE package from the Unity Asset Sto
   - Triplanar texture for terrain
   - Terrain Blending textures
   - Big Terrain setting up to 4 vertical levels 
+  - Custom Tree shader with color and size variation working
 - Planar Reflections
 - Overlayed Texture (Like a grid over a textured mapped used world coordinates)
 - Transparent Objects
