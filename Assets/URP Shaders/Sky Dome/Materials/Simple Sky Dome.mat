@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Simple Sky Dome
   m_Shader: {fileID: -6465566751694194690, guid: 3c8976133eb40423ab52f61690035adb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -47,6 +50,8 @@ Material:
     - Vector1_d80c676224e24367bd9cfd795cafc503: 0.39
     - Vector1_dbc8096f91174266ac4b3c7e81fc5988: 0.08
     - Vector1_f74305517c14451f9300b533ca49e18d: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_31fef15da8f742ab8ce8d989dc930228: {r: 0.376602, g: 0.6244293, b: 0.8584906, a: 0}
     - Color_7a1c5f96f2e14efa9c80adc6608bff69: {r: 0.9716981, g: 0.93393314, b: 0.875445, a: 0}
@@ -64,4 +69,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7

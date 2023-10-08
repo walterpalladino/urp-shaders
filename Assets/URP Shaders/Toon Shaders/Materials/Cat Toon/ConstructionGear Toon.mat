@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ConstructionGear Toon
   m_Shader: {fileID: -6465566751694194690, guid: c10f6e8e8b102489a8899c3669755a44, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -82,10 +85,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Boolean_e7b6cf50cf7c4726a61a1007a44d611e: 0
     - Vector1_1f6aa9c95fdd4ba296a6cbbbd955cd16: 0.11
     - Vector1_3863ebd8e3754f36a3445fb230ab8844: 0.73
+    - Vector1_615d7ef40a034bdbbe2925ca53596e98: 5
     - Vector1_73c96be67c0c487388f52df0977b9b27: 0.17
+    - Vector1_9450923840714e529e2a0901df63898c: 1
     - Vector1_b990908989594f7dbbe96d5d8d6aab15: 0.44
+    - Vector1_d1ff90cae18d41379771c318f60bbe30: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -103,6 +110,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -116,8 +124,10 @@ Material:
     - Color_25eabbfba3614ef79db9135ca267e4a0: {r: 0.8679245, g: 0.65898144, b: 0.39711642, a: 0}
     - Color_331e4b70645c40e9abe8455b41564e68: {r: 1, g: 1, b: 1, a: 0}
     - Color_5d6fe97854a24a3d9f40b0129aeb5e8a: {r: 1, g: 1, b: 1, a: 0}
+    - Color_6afb90a887ca43ce9f44e304d45dca76: {r: 0.36792448, g: 0.36271796, b: 0.36271796, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorShadow: {r: 0.53773576, g: 0.53773576, b: 0.53773576, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -133,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7

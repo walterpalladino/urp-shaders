@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Snow Covered Trees
   m_Shader: {fileID: -6465566751694194690, guid: c8e93a53137c54fa0b5758f22ec95415, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -42,6 +45,8 @@ Material:
     - Vector1_46f1f01a7a0e459c9bc98692113010ef: 0.25
     - Vector1_7618c7e877bc4665a7ac706abe3859e6: -0.3
     - Vector1_f3cc09855cf8472ca0437c44b6b3c2b7: 3.9
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Vector3_a1d6f9bb5a254db883f271c239200e43: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
@@ -57,4 +62,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7

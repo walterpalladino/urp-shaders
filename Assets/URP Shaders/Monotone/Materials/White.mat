@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: White
   m_Shader: {fileID: -6465566751694194690, guid: 172e038f85e4845b3bb566bd9cf85c18, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -46,7 +49,10 @@ Material:
     - Vector1_851c91a3097c4ece99c22ccdc0f827c8: 256
     - Vector1_957d5396444141b7ae713c7cc71010be: 0
     - Vector1_e6fa33c593cc4deda7279b4f885e10f8: 0.37
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
+    - Color_d5256564a6864127ba5dca74c1b82df0: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
@@ -62,4 +68,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
