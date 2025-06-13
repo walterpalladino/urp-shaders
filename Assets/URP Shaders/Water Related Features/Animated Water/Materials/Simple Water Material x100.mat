@@ -83,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Waves_Texture:
+        m_Texture: {fileID: 2800000, guid: aa9e69bb70fa648dab11e7f98078949d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -117,7 +121,7 @@ Material:
     - Vector1_bfba1b727b514d7eb1923ea9aaa2192d: 1
     - Vector1_c0fde5d8bd6f4e2d97e00c9f12f94d16: 0.87
     - Vector1_cb04052392c44a3eb626a5a56477b937: 5.4
-    - Vector1_cfc80cfb20b745f9ba886bdea03003af: 0.857
+    - Vector1_cfc80cfb20b745f9ba886bdea03003af: 0.8
     - Vector1_d9956af39dff42aaa345604dd3437134: 0.587
     - Vector1_e8bbd7323db04ad493aa208d0cb3e88c: 0.81
     - _AlphaClip: 0
